@@ -27,6 +27,7 @@ def test_jsonFromUtils():
 
 def test_jsonFromUtils2():
     print(jsonhandling("testData/credentials.json"))
+    print("testing")
 
 
 
