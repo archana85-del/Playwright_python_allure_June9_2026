@@ -1,0 +1,104 @@
+1. pytest
+2. pytest-playwright
+3. playwright browsers
+4. playwright
+5. openpyxl
+6.python-dotenv
+
+
+
+
+execution
+
+pytest : to execute all
+-v: for testcass execution status
+-s: to get teh data in teh console
+--headed: to execute in headed mode
+
+
+ex: pytest test_sample3.py  -v -s --headed
+
+1.session: session1
+
+
+session1-precondition
+
+module-precondition
+file1:
+    function
+    ts1
+
+    function
+    test2
+module-postcondition
+
+module-precondition
+
+file2:module
+
+    function
+    test3
+module-postcondition
+
+module-precondition
+
+file3:module
+    function
+    test4
+module-postcondition
+
+
+
+session1 -postCondition
+
+
+
+
+
+session-precond
+    module-precond
+        function-precondition
+            test12
+        function-postCondition
+    module-postCondition
+session-postConditio
+
+
+
+
+
+
+
+test1
+test2
+test3
+test4
+test5
+
+
+3
+
+bw1: test4
+
+bw3: test5
+
+
+reports:
+1. html: pip install pytest-html
+pytest -m login --headed -n 2 --html=report.html
+start report.html
+2. allure: pip install allure-pytest
+pytest -m login --headed -n 2 --alluredir=allure-results
+allure serve allure-results or allure generate allure-results -o allure-report --clean
+
+
+
+==============================================================
+
+1. laptop;    virtual
+2. python
+3. git clone
+4. install requirements.txt
+5. install playwright browsers
+6. execute testcase
+7. allure 

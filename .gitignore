@@ -1,0 +1,9 @@
+.env.prod
+tests/__pycache__
+pages/__pycache__
+allure-results
+.pytest_cache
+__pycache__
+report.html
+tests\\__pycache__
+pages\__pycache__
